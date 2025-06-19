@@ -3,7 +3,7 @@ import React from 'react';
 const ChatHeader: React.FC = () => {
   return (
     <header className="chat-header">
-      🌿 MIND MATE
+       PHINKASH CARE
     </header>
   );
 };

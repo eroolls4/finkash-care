@@ -77,7 +77,7 @@ export default {
             listStyleType: 'decimal',
           },
           '& h1, & h2, & h3, & h4, & h5, & h6': {
-            marginTop: '1em', // Reduced from 100em to 1em
+            marginTop: '1em',
             marginBottom: '0.5em',
             fontWeight: '600',
             lineHeight: '1.25',
