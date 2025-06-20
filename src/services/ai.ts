@@ -7,7 +7,6 @@ const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash' });
 
 export const generateResponse = async (userInput: string): Promise<string> => {
   try {
-    // Prepend mental health context to the user's input
     const contextualInput = `
       You are Mithra, a compassionate mental health chatbot. 
       Respond with empathy, understanding, and helpful guidance.

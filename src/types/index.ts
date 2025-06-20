@@ -4,3 +4,8 @@ export interface Message {
   isBot: boolean;
   isError?: boolean;
 }
+
+export interface SurveyProps {
+  isOpen: boolean;
+  onClose: () => void;
+}
